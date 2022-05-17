@@ -57,7 +57,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import vue from 'vue'
 import axios from 'axios'
 

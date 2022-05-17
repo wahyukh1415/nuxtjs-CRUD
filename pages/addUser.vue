@@ -57,7 +57,7 @@
     </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
 import axios from 'axios'
 
@@ -76,7 +76,7 @@ export default Vue.extend({
       }
     },
     mounted(){
-        this.getData()
+
     },
     methods:{
         async back(){
