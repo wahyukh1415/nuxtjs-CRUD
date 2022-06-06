@@ -12,7 +12,7 @@
             </b-alert>
         </div>
         <div class="col-xl-12">
-            <h1>Tambah Pengguna</h1>
+            <h1>Edit Pengguna</h1>
         </div>
         <div class="col-xl-12">
             <b-card>

@@ -25,7 +25,7 @@
                 </table>
                 <div class="row my-3">
                     <div class="col">
-                        <h5>Lihat Pengguna</h5>
+                        <h5>Post Pengguna</h5>
                     </div>
                     <div class="col" align="end">
                         <b-button id="show-btn" @click="modal = !modal">Buat Post</b-button>
@@ -49,7 +49,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="row">
+                        <div class="row" v-if="!listPost.length">
                             <div class="col" style="text-align: center">Data Post Tidak Ada</div>
                         </div>
                     </b-card>
